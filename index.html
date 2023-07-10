@@ -2,15 +2,34 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="shrek.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Любим Шрека</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Doc</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        aside {
+            float: right;
+            height: 33em;
+            width: 13%;
+            border: 0.1em solid gray;
+        }
+
+        aside div {
+            margin-top: 2em;
+        }
+
+        #zag {
+            text-align: center;
+        }
+    </style>
+
 </head>
 <body>
 
     
     <header>
-        <div class="logo"><img src="shrek.png" alt="shrek" /></div>
+        <div class="logo">Logo</div>
         <nav class="navigation">
             <a href="#">Главная</a>
             <a href="#">Помощь</a>
@@ -19,15 +38,76 @@
         </nav>
     </header>
 
+    <hr>
 
-    <div class="priv">
-        <h2 class="glav">
-            Приветствуем на сайте клуба любителей Шрека!
-        </h2>
-        <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore laborum assumenda maxime aliquid, repellendus beatae at distinctio vel quos sequi vitae molestias animi nulla quod nemo quasi dolor eos.
-        </p>
-    </div>
+    <aside>
+        <h2 id="zag">Aside</h2>
+        <div><a href="#">Первый</a></div>
+        <div><a href="#">Второй</a></div>
+        <div><a href="#">Третий</a></div>
+        <div><a href="#">Четвёртый</a></div>
+    </aside>
+
+    <hr>
+
+    <main>
+        
+        <article class="priv">
+            <h2 class="glav">
+                Приветствуем на сайте клуба любителей Шрека!
+            </h2>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore laborum assumenda maxime aliquid, repellendus beatae at distinctio vel quos sequi vitae molestias animi nulla quod nemo quasi dolor eos.
+            </p>
+        </article>
+    
+        <hr>
+    
+        <article class="osn">
+            <h2 class="glav">
+                Какие новости?
+            </h2>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore laborum assumenda maxime aliquid, repellendus beatae at distinctio vel quos sequi vitae molestias animi nulla quod nemo quasi dolor eos.
+            </p>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci sequi, molestiae temporibus architecto excepturi, nostrum, ipsum quibusdam quisquam soluta inventore ut cum ducimus repellat. Tempore impedit eius enim explicabo saepe!
+            </p>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, odio. Quo, nihil modi cumque debitis a aliquam culpa voluptas atque iste non rerum, nam earum id! Distinctio dolore at ratione?
+            </p>
+        </article>
+    
+        <hr>
+    
+        <figure>
+            <img src="polyana_shreka.jpg" alt="polyana_shreka">
+            <figcaption>Здесь живёт Шрек. Это его поляна</figcaption>
+        </figure>
+    </main>
+
+    <hr>
+
+    <input type="date">
+
+    <hr>
+
+    <form action="">
+        <fieldset>
+            <legend>Ваша форма</legend>
+            <textarea name="text" cols="30" rows="10"></textarea>
+            <input type="submit">
+        </fieldset>
+        <fieldset>
+            <input type="file">
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <footer class="kon">
+            <a href="#">Мы в соцсетях</a>
+    </footer>
 
 </body>
 </html>
