@@ -1,0 +1,287 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: aliceblue;
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(216, 235, 252);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+    font-size: 0.8em;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.25em;
+    color: rgb(105, 93, 71);
+    text-decoration: none;
+    margin-left: 1.5em;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.1em;
+    background: rgb(138, 99, 41);
+    border-radius: 0.5em;
+    left: 0;
+    bottom: -0.4em;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+}
+
+
+.navigation .btn-login {
+    font-size: 1.1em;
+    color: rgb(105, 93, 71);
+    margin-left: 1.5em;
+    height: 3rem;
+    width: 5.5rem;
+    background: transparent;
+    border: 0.1rem solid rgba(156, 103, 4, 0.466);
+    border-radius: 0.6em;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navigation .btn-login:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(90, 95, 78);
+}
+
+.priv {
+    position: absolute;
+    margin-top: 9em;
+    text-align: center;
+    width: 60%;
+    background: rgb(235, 245, 255);
+    padding: 1em;
+    border-radius: 0.2em;
+    border: 0.08em solid darkblue;
+    box-shadow: 0.1em 0.3em 0.7em rgba(0,0,0,0.5);
+    font-size: 0.9em;
+}
+
+.osn {
+    position: absolute;
+    margin-top: 26em;
+    text-align: center;
+    width: 80%;
+    background: rgb(235, 245, 255);
+    padding: 1em;
+    border-radius: 0.2em;
+    border: 0.08em solid darkblue;
+    box-shadow: 0.1em 0.3em 0.7em rgba(0,0,0,0.5);
+    font-size: 0.9em;
+}
+
+
+
+.glav {
+    color:rgb(0, 0, 0);
+    margin-bottom: 1em;
+}
+
+
+.kon {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(234, 180, 245);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+    font-size: 0.8em;
+} */
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+body {
+    background: rgb(248, 251, 255);    
+}
+
+header {
+    display: flex;
+    background: antiquewhite;
+    height: 4em;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+    box-shadow: 0 0 0.6em rgba(0,0,0,0.5);
+    padding: 1em;
+
+}
+
+
+.logo {
+    font-size: 1.5em;
+}
+
+.navigation a {
+    margin-right: 1.3em;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+
+.navigation a:hover {
+    color: rgb(206, 119, 5);
+}
+
+
+.btn-login {
+    padding: 0.5em;
+    font-size: 1em;
+    color: black;
+    background: transparent;
+    border: 0.1rem solid rgba(156, 103, 4, 0.466);
+    border-radius: 0.6em;
+    cursor: pointer;
+}
+
+
+.btn-login:hover {
+    color: rgb(206, 119, 5);
+    background: rgb(255, 247, 236);
+}
+
+aside {
+    font-size: 0.8em;
+    float: right;
+    height: 33em;
+    width: 12%;
+    padding: 0.1em;
+    border: 0.1em solid gray;
+    border-radius: 0.5em;
+    text-align: center;
+    background: rgba(237, 255, 70, 0.568);
+    overflow: hidden;
+    margin-left: 1em;
+}
+h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+hr {
+    color: antiquewhite;
+}
+
+aside div a {
+    text-decoration: none;
+    color: black;
+}
+
+aside div a:hover {
+    color: brown;    
+}
+
+aside div {
+    margin-top: 2em;
+}
+
+main {
+    margin-left: 1em;
+    width: 84%;
+}
+
+article p {
+    text-align: justify;
+    text-indent: 1em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+h2 {
+    text-align: center;
+}
+
+article {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    background: azure;
+    border-radius: 1em;
+    border: 0.1em solid rgb(175, 231, 231);
+}
+
+figure {
+    margin: 1em;
+}
+
+input {
+    margin: 1em;
+}
+
+form {
+    margin: 1em;
+}
+
+footer{
+    display: flex;
+    background: rgb(203, 195, 241);
+    height: 2em;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 0.6em rgba(0,0,0,0.5);
+    padding: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+
+footer a:hover {
+    color: rgb(206, 119, 5);
+}
+
+fieldset p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
