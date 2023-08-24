@@ -22,12 +22,17 @@
                         </div>
                     </a>
                     <nav class="menu">
+                        <button class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
                         <ul class="menu__list">
                             <li class="menu__list-item">
                                 <a href="index.html" class="menu__list-link">Главная</a>
                             </li>
                             <li class="menu__list-item">
-                                <a href="Tovary.html" class="menu__list-link">Товары</a>
+                                <a href="Tovary.html" class="menu__list-link menu__list-link--active">Товары</a>
                             </li>
                             <li class="menu__list-item">
                                 <a href="Informaciya.html" class="menu__list-link">Информация</a>
@@ -36,18 +41,165 @@
                                 <a href="Nasha_komanda.html" class="menu__list-link">Наша команда</a>
                             </li>
                             <li class="menu__list-item">
-                                <a href="O_proekte.html" class="menu__list-link">О проекте</a>
+                                <a href="Contact_us.html" class="menu__list-link">Contact us</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
+
+
         <main class="main">
-            <div class="container">
-                
-            </div>
+            <section class="product">
+                <div class="container">
+                    <h2 class="section__title">Продукция</h2>
+                    <div class="tabs">
+                        <div class="tabs__btn">
+                            <button class="tabs__btn-item tabs__btn-item--active" data-button="content-1">Популярное</button>
+                            <button class="tabs__btn-item" data-button="content-2">Шаверма</button>
+                            <button class="tabs__btn-item" data-button="content-3">Салатик</button>
+                            <button class="tabs__btn-item" data-button="content-4">Бурхэры</button>
+                        </div>
+                        <div class="tabs__content">
+                            <div class="tabs__content-item tabs__content-item--active" id="content-1">
+                                <div class="card">
+                                    <img src="images/shaurma-fri.jpg" alt="" class="card__img">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Топ Шава</h4>
+                                        <p class="card__text">NULL</p>
+                                        <p class="card__price">200 руб.</p>
+                                    </div>
+                                    <a href="#" class="card__link">Подробнее</a>
+                                </div>
+
+                                <div class="card">
+                                    <img src="images/top_pasta.jpg" alt="" class="card__img">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Топ Паста</h4>
+                                        <p class="card__text">NULL</p>
+                                        <p class="card__price">400 руб.</p>
+                                    </div>
+                                    <a href="#" class="card__link">Подробнее</a>
+                                </div>
+
+                                <div class="card">
+                                    <img src="images/салатик.jpg" alt="" class="card__img">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Ультра Салатик</h4>
+                                        <p class="card__text">NULL</p>
+                                        <p class="card__price">300 руб.</p>
+                                    </div>
+                                    <a href="#" class="card__link">Подробнее</a>
+                                </div>
+
+                                <div class="card">
+                                    <img src="images/sup.jpg" alt="" class="card__img">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Мега Суп</h4>
+                                        <p class="card__text">NULL</p>
+                                        <p class="card__price">500 руб.</p>
+                                    </div>
+                                    <a href="#" class="card__link">Подробнее</a>
+                                </div>
+
+                                <div class="card">
+                                    <img src="images/shaurma-fri.jpg" alt="" class="card__img">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Топ Шава</h4>
+                                        <p class="card__text">Вкуснейшая шавуха из курицы или свинины (не халяль)</p>
+                                        <p class="card__price">200 руб.</p>
+                                    </div>
+                                    <a href="#" class="card__link">Подробнее</a>
+                                </div>
+
+                                <div class="card">
+                                    <img src="images/top_pasta.jpg" alt="" class="card__img">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Топ Паста</h4>
+                                        <p class="card__text">Макароны с мега соусом, кажется мы стали забывать, как же это вкустно</p>
+                                        <p class="card__price">400 руб.</p>
+                                    </div>
+                                    <a href="#" class="card__link">Подробнее</a>
+                                </div>
+
+                                <div class="card">
+                                    <img src="images/салатик.jpg" alt="" class="card__img">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Ультра Салатик</h4>
+                                        <p class="card__text">Не мясо конечно, но пожеланию можно и его сюда порубить</p>
+                                        <p class="card__price">300 руб.</p>
+                                    </div>
+                                    <a href="#" class="card__link">Подробнее</a>
+                                </div>
+
+                                <div class="card">
+                                    <img src="images/sup.jpg" alt="" class="card__img">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Мега Суп</h4>
+                                        <p class="card__text">Борщичок прямо как бабушка в деревне готовила. Мы чтим традиции</p>
+                                        <p class="card__price">500 руб.</p>
+                                    </div>
+                                    <a href="#" class="card__link">Подробнее</a>
+                                </div>
+
+                                <div class="card">
+                                    <img src="images/shaurma-fri.jpg" alt="" class="card__img">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Топ Шава</h4>
+                                        <p class="card__text">Вкуснейшая шавуха из курицы или свинины (не халяль)</p>
+                                        <p class="card__price">200 руб.</p>
+                                    </div>
+                                    <a href="#" class="card__link">Подробнее</a>
+                                </div>
+
+                                <div class="card">
+                                    <img src="images/top_pasta.jpg" alt="" class="card__img">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Топ Паста</h4>
+                                        <p class="card__text">Макароны с мега соусом, кажется мы стали забывать, как же это вкустно</p>
+                                        <p class="card__price">400 руб.</p>
+                                    </div>
+                                    <a href="#" class="card__link">Подробнее</a>
+                                </div>
+
+                                <div class="card">
+                                    <img src="images/салатик.jpg" alt="" class="card__img">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Ультра Салатик</h4>
+                                        <p class="card__text">Не мясо конечно, но пожеланию можно и его сюда порубить</p>
+                                        <p class="card__price">300 руб.</p>
+                                    </div>
+                                    <a href="#" class="card__link">Подробнее</a>
+                                </div>
+
+                                <div class="card">
+                                    <img src="images/sup.jpg" alt="" class="card__img">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Мега Суп</h4>
+                                        <p class="card__text">Борщичок прямо как бабушка в деревне готовила. Мы чтим традиции</p>
+                                        <p class="card__price">500 руб.</p>
+                                    </div>
+                                    <a href="#" class="card__link">Подробнее</a>
+                                </div>
+
+                            </div>
+                            <div class="tabs__content-item" id="content-2">
+                                2
+                            </div>
+                            <div class="tabs__content-item" id="content-3">
+                                3
+                            </div>
+                            <div class="tabs__content-item" id="content-4">
+                                4
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
+
+
         <footer class="footer">
             <div class="container">
                 <nav class="footer__menu">
@@ -132,6 +284,8 @@
 
     </div>
 
+    <script src="js/main.js">
 
+    </script>
 </body>
 </html>
